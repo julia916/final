@@ -1,0 +1,119 @@
+*{
+    cursor: url(images/cursor.png), pointer; 
+    font-family: Arial;
+} 
+
+body{
+    margin: 0 14em 0 14em;
+    /* background: #B7FFCF;  */
+    background-image: url("images/kaytra.png");
+    background-repeat: repeat;
+   
+    /*teal*/
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+/* .title{
+    padding: 1em 0.5em 1em 0.5em; */
+    /* margin-left: 70%; */
+    /* width: 30%; */
+    /* border-radius: 2em;
+    text-align: center; */
+    /*background: #ffc1f8; #FFDEE3*/
+/* } */
+
+/* FAQ TITLE */
+.title > img {
+    margin-left: 2em;
+    padding-right: 5%;
+    padding-top: 5%;
+    /* width: 60%;
+    height: 60%; */
+    max-width: 80%;
+    max-height: 80%;
+}
+
+/* NAVIGATION BAR */
+.navigation{
+    height: 30%; 
+    /* width: 30%; */
+    border-radius: 2em;
+    border: 2.5px solid #000000;
+    background: #F0FFA0; /*originally burlywood; pink: #FFDEE3; yellow: #F0FFA0*/
+    text-align: center;
+    /* margin-left: 1em;
+    margin-right: 1em; */
+    margin-top: 3em; 
+}
+/* .navigation > a {
+    padding-right: 1em;
+} */
+
+.navigation > a > img {
+    padding-right: 1em;
+    padding-top: 1em;
+    /* padding-right: 2em; */
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.body2{ 
+    border-radius: 1em;
+    border: black solid 3px;
+    padding: 1.3em 4em 2em 4em;
+    background: white;
+}
+
+/* all the heading 2's are selected within the body2 class*/
+.body2 > h2{
+    font-family: 'Comfortaa', cursive;
+
+    font-size: 2em;
+    padding-left: 5em; 
+}
+
+/* all the paragraphs are selected within the body2 class*/
+.body2 > p{
+    font-family: 'Didact Gothic', sans-serif;
+
+    font-size: 1.3em;
+    padding-bottom: 2em; 
+}
+
+footer{
+    background: #bdc3ff;
+    border-radius: 2em;
+    border: black solid 1px; 
+    padding: 0.3em 2em 0.3em 2em;
+    margin-bottom: 1em;
+    font-family: verdana;
+    text-align: center;
+    transform: translateY(2em);
+}
+
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 0.9em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a5c747;
+  }

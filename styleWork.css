@@ -1,0 +1,104 @@
+*{
+    cursor: url(images/cursor.png), pointer;
+    font-family: 'Didact Gothic', sans-serif;
+} 
+
+body{
+    margin: 0 14em 0 14em;
+    background: #5e5261; /*#474747*/ 
+    /*background-image: url("aboutLink.png");
+    background-repeat: repeat; */
+   
+    /*teal*/
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.layout {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+/* WORK TITLE */
+.title > img {
+    /* margin-left: 2em; */
+    padding-right: 5%;
+    padding-top: 2%;
+    /* width: 60%;
+    height: 60%; */
+    max-width: 70%;
+    max-height: 70%;
+}
+
+/* NAVIGATION BAR */
+.navigation{
+    height: 30%; 
+    width: 40%;
+    border-radius: 2em;
+    border: 2.5px solid #000000;
+    background: #F0FFA0; /*originally burlywood; pink: #FFDEE3; yellow: #F0FFA0*/
+    text-align: center;
+    /* margin-left: 1em;
+    margin-right: 1em; */
+    margin-top: 3em; 
+    float: right;
+    /* margin-right: 5em; */
+}
+
+.navigation > a > img {
+    
+    padding-right: 1em;
+    padding-top: 0.3em;
+    /* padding-right: 2em; */
+    max-width: 25%;
+    max-height:25%;
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+.body2{ 
+    /* margin-left: 2em; */
+    padding: 1.3em 4em 2em 4em;
+}
+
+#kaytra {
+    border: black solid 10px; 
+}
+
+/* all the paragraphs are selected within the body2 class*/
+*p{
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1.3em;
+    color: #c1e1e6;
+    padding-bottom: 2em; 
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+footer{
+    background: #bdc3ff;
+    border-radius: 2em;
+    border: black solid 1px; 
+    padding: 0.3em 2em 0.3em 2em;
+    margin-bottom: 1em;
+    font-family: verdana;
+    text-align: center;
+    transform: translateY(2em);
+}
+/*----------------------------------------------------------------------------------------------------------------------------*/
+/* SCROLL BAR */
+/* width */
+::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 0.9em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a5c747;
+  }
